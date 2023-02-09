@@ -1,0 +1,17 @@
+.tab-item {
+  background-color: transparent;
+  border: 0;
+  margin: 10px;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+li {
+  list-style-type: none;
+}
+
+.change-color {
+  color: #fec653;
+  text-decoration: underline;
+}

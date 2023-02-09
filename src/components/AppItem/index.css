@@ -1,0 +1,10 @@
+.app-item {
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+}

@@ -1,0 +1,125 @@
+* {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-container {
+  background-color: #2c0e3a;
+  padding: 20px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.website-logo {
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 300px;
+    margin-left: 50px;
+  }
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timer {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 5px;
+}
+
+p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.score {
+  color: #fec653;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+}
+
+.tab-items-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.thumbnail {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.app-items-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}
+
+.game-over-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.trophy {
+  height: 200px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.play-again {
+  background-color: #cf60c8;
+  color: #ffffff;
+  font-size: 20px;
+  border: 0;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.reset {
+  margin-top: 10x;
+  margin-right: 10px;
+}
