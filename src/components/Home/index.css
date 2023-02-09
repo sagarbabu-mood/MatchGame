@@ -123,3 +123,7 @@ p {
   margin-top: 10x;
   margin-right: 10px;
 }
+
+ul {
+  padding-left: 0;
+}
